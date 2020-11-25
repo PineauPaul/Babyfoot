@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module joueurs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>joueurs</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home5/malledth/Documents/Projet%20Info%20V2/joueurs.py">/home5/malledth/Documents/Projet Info V2/joueurs.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="PyQt5.QtCore.html">PyQt5.QtCore</a><br>
+<a href="PyQt5.QtGui.html">PyQt5.QtGui</a><br>
+<a href="PyQt5.QtWidgets.html">PyQt5.QtWidgets</a><br>
+</td><td width="25%" valign=top><a href="ast.html">ast</a><br>
+<a href="math.html">math</a><br>
+<a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="random.html">random</a><br>
+<a href="random.html">random</a><br>
+<a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top><a href="time.html">time</a><br>
+<a href="PyQt5.uic.html">PyQt5.uic</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="joueurs.html#joueurs">joueurs</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="joueurs.html#attaque">attaque</a>
+</font></dt><dt><font face="helvetica, arial"><a href="joueurs.html#defense">defense</a>
+</font></dt><dt><font face="helvetica, arial"><a href="joueurs.html#demi">demi</a>
+</font></dt><dt><font face="helvetica, arial"><a href="joueurs.html#equipe">equipe</a>
+</font></dt><dt><font face="helvetica, arial"><a href="joueurs.html#gardien">gardien</a>
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="attaque">class <strong>attaque</strong></a>(<a href="joueurs.html#joueurs">joueurs</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#attaque">attaque</a>(<a href="#equipe">equipe</a>,&nbsp;largeur,&nbsp;longueur)<br>
+&nbsp;<br>
+La&nbsp;classe&nbsp;<a href="#attaque">attaque</a>&nbsp;definie&nbsp;les&nbsp;caracteristiques&nbsp;des&nbsp;attaquants&nbsp;du&nbsp;jeu.<br>
+Elle&nbsp;herite&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#joueurs">joueurs</a>.<br>
+&nbsp;<br>
+Attributs&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain<br>
+&nbsp;<br>
+@author&nbsp;:&nbsp;P.&nbsp;Pineau&nbsp;T.&nbsp;Malledan<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="joueurs.html#attaque">attaque</a></dd>
+<dd><a href="joueurs.html#joueurs">joueurs</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="attaque-__init__"><strong>__init__</strong></a>(self, equipe, largeur, longueur)</dt><dd><tt>Constructeurs&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#attaque">attaque</a>.<br>
+&nbsp;<br>
+Parametres&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="joueurs.html#joueurs">joueurs</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>ord</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="defense">class <strong>defense</strong></a>(<a href="joueurs.html#joueurs">joueurs</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#defense">defense</a>(<a href="#equipe">equipe</a>,&nbsp;largeur,&nbsp;longueur)<br>
+&nbsp;<br>
+La&nbsp;classe&nbsp;<a href="#defense">defense</a>&nbsp;definie&nbsp;les&nbsp;caracteristiques&nbsp;des&nbsp;defenseurs&nbsp;du&nbsp;jeu.<br>
+Elle&nbsp;herite&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#joueurs">joueurs</a>.<br>
+&nbsp;<br>
+Attributs&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain<br>
+&nbsp;<br>
+@author&nbsp;:&nbsp;P.&nbsp;Pineau&nbsp;T.&nbsp;Malledan<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="joueurs.html#defense">defense</a></dd>
+<dd><a href="joueurs.html#joueurs">joueurs</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="defense-__init__"><strong>__init__</strong></a>(self, equipe, largeur, longueur)</dt><dd><tt>Constructeur&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#defense">defense</a>.<br>
+&nbsp;<br>
+Parametres&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="joueurs.html#joueurs">joueurs</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>ord</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="demi">class <strong>demi</strong></a>(<a href="joueurs.html#joueurs">joueurs</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#demi">demi</a>(<a href="#equipe">equipe</a>,&nbsp;largeur,&nbsp;longueur)<br>
+&nbsp;<br>
+La&nbsp;classe&nbsp;<a href="#demi">demi</a>&nbsp;definie&nbsp;les&nbsp;caracteristiques&nbsp;des&nbsp;milieux&nbsp;de&nbsp;terrain&nbsp;du&nbsp;jeu.<br>
+Elle&nbsp;herite&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#joueurs">joueurs</a>.<br>
+&nbsp;<br>
+Attributs&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain<br>
+&nbsp;<br>
+@author&nbsp;:&nbsp;P.&nbsp;Pineau&nbsp;T.&nbsp;Malledan<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="joueurs.html#demi">demi</a></dd>
+<dd><a href="joueurs.html#joueurs">joueurs</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="demi-__init__"><strong>__init__</strong></a>(self, equipe, largeur, longueur)</dt><dd><tt>Constructeur&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#demi">demi</a>.<br>
+&nbsp;<br>
+Parametres&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="joueurs.html#joueurs">joueurs</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>ord</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="equipe">class <strong>equipe</strong></a>(<a href="joueurs.html#joueurs">joueurs</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>La&nbsp;classe&nbsp;<a href="#equipe">equipe</a>&nbsp;creee&nbsp;les&nbsp;deux&nbsp;equipes&nbsp;sur&nbsp;le&nbsp;plateau&nbsp;de&nbsp;jeu.<br>
+Elle&nbsp;herite&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#joueurs">joueurs</a>.<br>
+&nbsp;<br>
+@author&nbsp;:&nbsp;P.&nbsp;Pineau&nbsp;T.&nbsp;Malledan<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="joueurs.html#equipe">equipe</a></dd>
+<dd><a href="joueurs.html#joueurs">joueurs</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="equipe-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Constructeur&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#equipe">equipe</a>.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="joueurs.html#joueurs">joueurs</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>ord</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="gardien">class <strong>gardien</strong></a>(<a href="joueurs.html#joueurs">joueurs</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#gardien">gardien</a>(<a href="#equipe">equipe</a>,&nbsp;largeur,&nbsp;longueur)<br>
+&nbsp;<br>
+La&nbsp;classe&nbsp;<a href="#gardien">gardien</a>&nbsp;definie&nbsp;les&nbsp;caracteristiques&nbsp;des&nbsp;gardiens&nbsp;du&nbsp;jeu.<br>
+Elle&nbsp;herite&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#joueurs">joueurs</a>.<br>
+&nbsp;<br>
+Attributs&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain<br>
+&nbsp;<br>
+@author&nbsp;:&nbsp;P.&nbsp;Pineau&nbsp;T.&nbsp;Malledan<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="joueurs.html#gardien">gardien</a></dd>
+<dd><a href="joueurs.html#joueurs">joueurs</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="gardien-__init__"><strong>__init__</strong></a>(self, equipe, largeur, longueur)</dt><dd><tt>Constructeur&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#gardien">gardien</a>.<br>
+&nbsp;<br>
+Parametres&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;ou&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;la&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="joueurs.html#joueurs">joueurs</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>ord</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="joueurs">class <strong>joueurs</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#joueurs">joueurs</a>(bornes_translation,&nbsp;position_equipe,&nbsp;<a href="#equipe">equipe</a>,&nbsp;longueur,&nbsp;largeur,&nbsp;rayon_pieds=25,&nbsp;ord=0,&nbsp;val_but=1)<br>
+&nbsp;<br>
+La&nbsp;classe&nbsp;<a href="#joueurs">joueurs</a>&nbsp;permet&nbsp;de&nbsp;recenser&nbsp;les&nbsp;caracteristiques&nbsp;de&nbsp;chaque&nbsp;«&nbsp;barre&nbsp;»&nbsp;de&nbsp;<a href="#joueurs">joueurs</a>.<br>
+&nbsp;<br>
+Attributs&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;bornes_translation&nbsp;(liste)&nbsp;:&nbsp;intervalle&nbsp;de&nbsp;translation&nbsp;de&nbsp;la&nbsp;barre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;position_equipe&nbsp;(liste)&nbsp;:&nbsp;position&nbsp;en&nbsp;abscisse&nbsp;de&nbsp;la&nbsp;barre&nbsp;de&nbsp;<a href="#joueurs">joueurs</a>&nbsp;en&nbsp;fonction&nbsp;de&nbsp;l'<a href="#equipe">equipe</a>&nbsp;(ex&nbsp;:&nbsp;attaquants&nbsp;de&nbsp;la&nbsp;premiere&nbsp;<a href="#equipe">equipe</a>&nbsp;placee&nbsp;a&nbsp;telle&nbsp;abscisse,&nbsp;attaquants&nbsp;de&nbsp;l'autre&nbsp;<a href="#equipe">equipe</a>&nbsp;placee&nbsp;a&nbsp;telle&nbsp;autre&nbsp;abscisse)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;et&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;rayon_pieds&nbsp;(int)&nbsp;:&nbsp;rayon&nbsp;du&nbsp;cercle&nbsp;des&nbsp;pieds&nbsp;des&nbsp;<a href="#joueurs">joueurs</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;ord&nbsp;(int)&nbsp;:&nbsp;position&nbsp;initiale&nbsp;en&nbsp;ordonnee&nbsp;des&nbsp;barres&nbsp;de&nbsp;<a href="#joueurs">joueurs</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;val_but&nbsp;(int)&nbsp;:&nbsp;valeur&nbsp;du&nbsp;but&nbsp;selon&nbsp;le&nbsp;type&nbsp;de&nbsp;joueur<br>
+&nbsp;<br>
+@author&nbsp;:&nbsp;P.&nbsp;Pineau&nbsp;T.&nbsp;Malledan<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="joueurs-__init__"><strong>__init__</strong></a>(self, bornes_translation, position_equipe, equipe, longueur, largeur, rayon_pieds=25, ord=0, val_but=1)</dt><dd><tt>Constructeur&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="#joueurs">joueurs</a>.<br>
+&nbsp;<br>
+Parametres&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bornes_translation&nbsp;(liste)&nbsp;:&nbsp;intervalle&nbsp;de&nbsp;translation&nbsp;de&nbsp;la&nbsp;barre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position_equipe&nbsp;(liste)&nbsp;:&nbsp;position&nbsp;en&nbsp;abscisse&nbsp;de&nbsp;la&nbsp;barre&nbsp;de&nbsp;<a href="#joueurs">joueurs</a>&nbsp;en&nbsp;fonction&nbsp;de&nbsp;l'<a href="#equipe">equipe</a>&nbsp;(ex&nbsp;:&nbsp;attaquants&nbsp;de&nbsp;la&nbsp;premiere&nbsp;<a href="#equipe">equipe</a>&nbsp;placee&nbsp;a&nbsp;telle&nbsp;abscisse,&nbsp;attaquants&nbsp;de&nbsp;l'autre&nbsp;<a href="#equipe">equipe</a>&nbsp;placee&nbsp;a&nbsp;telle&nbsp;autre&nbsp;abscisse)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#equipe">equipe</a>&nbsp;(int)&nbsp;:&nbsp;prend&nbsp;la&nbsp;valeur&nbsp;0&nbsp;pour&nbsp;une&nbsp;<a href="#equipe">equipe</a>&nbsp;et&nbsp;1&nbsp;pour&nbsp;l'autre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longueur&nbsp;(int)&nbsp;:&nbsp;longueur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largeur&nbsp;(int)&nbsp;:&nbsp;largeur&nbsp;du&nbsp;terrain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rayon_pieds&nbsp;(int,&nbsp;optionnel)&nbsp;:&nbsp;rayon&nbsp;du&nbsp;cercle&nbsp;des&nbsp;pieds&nbsp;des&nbsp;<a href="#joueurs">joueurs</a>&nbsp;(25&nbsp;par&nbsp;defaut)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ord&nbsp;(int,&nbsp;optionnel)&nbsp;:&nbsp;position&nbsp;initiale&nbsp;en&nbsp;ordonnee&nbsp;des&nbsp;barres&nbsp;de&nbsp;<a href="#joueurs">joueurs</a>&nbsp;(0&nbsp;par&nbsp;defaut)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;val_but&nbsp;(int,&nbsp;optionnel)&nbsp;:&nbsp;valeur&nbsp;du&nbsp;but&nbsp;selon&nbsp;le&nbsp;type&nbsp;de&nbsp;joueur&nbsp;(0&nbsp;par&nbsp;defaut)</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>ord</strong></dt>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-QT_TRANSLATE_NOOP"><strong>QT_TRANSLATE_NOOP</strong></a>(...)</dt><dd><tt><a href="#-QT_TRANSLATE_NOOP">QT_TRANSLATE_NOOP</a>(str,&nbsp;str)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+ <dl><dt><a name="-QT_TR_NOOP"><strong>QT_TR_NOOP</strong></a>(...)</dt><dd><tt><a href="#-QT_TR_NOOP">QT_TR_NOOP</a>(str)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+ <dl><dt><a name="-QT_TR_NOOP_UTF8"><strong>QT_TR_NOOP_UTF8</strong></a>(...)</dt><dd><tt><a href="#-QT_TR_NOOP_UTF8">QT_TR_NOOP_UTF8</a>(str)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+ <dl><dt><a name="-Q_ARG"><strong>Q_ARG</strong></a>(...)</dt><dd><tt><a href="#-Q_ARG">Q_ARG</a>(<a href="builtins.html#object">object</a>,&nbsp;<a href="builtins.html#object">object</a>)&nbsp;-&gt;&nbsp;QGenericArgument</tt></dd></dl>
+ <dl><dt><a name="-Q_CLASSINFO"><strong>Q_CLASSINFO</strong></a>(...)</dt><dd><tt><a href="#-Q_CLASSINFO">Q_CLASSINFO</a>(str,&nbsp;str)</tt></dd></dl>
+ <dl><dt><a name="-Q_ENUM"><strong>Q_ENUM</strong></a>(...)</dt><dd><tt><a href="#-Q_ENUM">Q_ENUM</a>(Union[type,&nbsp;enum.Enum])</tt></dd></dl>
+ <dl><dt><a name="-Q_ENUMS"><strong>Q_ENUMS</strong></a>(...)</dt><dd><tt><a href="#-Q_ENUMS">Q_ENUMS</a>(*)</tt></dd></dl>
+ <dl><dt><a name="-Q_FLAG"><strong>Q_FLAG</strong></a>(...)</dt><dd><tt><a href="#-Q_FLAG">Q_FLAG</a>(Union[type,&nbsp;enum.Enum])</tt></dd></dl>
+ <dl><dt><a name="-Q_FLAGS"><strong>Q_FLAGS</strong></a>(...)</dt><dd><tt><a href="#-Q_FLAGS">Q_FLAGS</a>(*)</tt></dd></dl>
+ <dl><dt><a name="-Q_RETURN_ARG"><strong>Q_RETURN_ARG</strong></a>(...)</dt><dd><tt><a href="#-Q_RETURN_ARG">Q_RETURN_ARG</a>(<a href="builtins.html#object">object</a>)&nbsp;-&gt;&nbsp;QGenericReturnArgument</tt></dd></dl>
+ <dl><dt><a name="-bin_"><strong>bin_</strong></a>(...)</dt><dd><tt><a href="#-bin_">bin_</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-bom"><strong>bom</strong></a>(...)</dt><dd><tt><a href="#-bom">bom</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-center"><strong>center</strong></a>(...)</dt><dd><tt><a href="#-center">center</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-dec"><strong>dec</strong></a>(...)</dt><dd><tt><a href="#-dec">dec</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-endl"><strong>endl</strong></a>(...)</dt><dd><tt><a href="#-endl">endl</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-fixed"><strong>fixed</strong></a>(...)</dt><dd><tt><a href="#-fixed">fixed</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-flush"><strong>flush</strong></a>(...)</dt><dd><tt><a href="#-flush">flush</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-forcepoint"><strong>forcepoint</strong></a>(...)</dt><dd><tt><a href="#-forcepoint">forcepoint</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-forcesign"><strong>forcesign</strong></a>(...)</dt><dd><tt><a href="#-forcesign">forcesign</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-hex_"><strong>hex_</strong></a>(...)</dt><dd><tt><a href="#-hex_">hex_</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-left"><strong>left</strong></a>(...)</dt><dd><tt><a href="#-left">left</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-lowercasebase"><strong>lowercasebase</strong></a>(...)</dt><dd><tt><a href="#-lowercasebase">lowercasebase</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-lowercasedigits"><strong>lowercasedigits</strong></a>(...)</dt><dd><tt><a href="#-lowercasedigits">lowercasedigits</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-noforcepoint"><strong>noforcepoint</strong></a>(...)</dt><dd><tt><a href="#-noforcepoint">noforcepoint</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-noforcesign"><strong>noforcesign</strong></a>(...)</dt><dd><tt><a href="#-noforcesign">noforcesign</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-noshowbase"><strong>noshowbase</strong></a>(...)</dt><dd><tt><a href="#-noshowbase">noshowbase</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-oct_"><strong>oct_</strong></a>(...)</dt><dd><tt><a href="#-oct_">oct_</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-pyqtPickleProtocol"><strong>pyqtPickleProtocol</strong></a>(...)</dt><dd><tt><a href="#-pyqtPickleProtocol">pyqtPickleProtocol</a>()&nbsp;-&gt;&nbsp;Optional[int]</tt></dd></dl>
+ <dl><dt><a name="-pyqtRemoveInputHook"><strong>pyqtRemoveInputHook</strong></a>(...)</dt><dd><tt><a href="#-pyqtRemoveInputHook">pyqtRemoveInputHook</a>()</tt></dd></dl>
+ <dl><dt><a name="-pyqtRestoreInputHook"><strong>pyqtRestoreInputHook</strong></a>(...)</dt><dd><tt><a href="#-pyqtRestoreInputHook">pyqtRestoreInputHook</a>()</tt></dd></dl>
+ <dl><dt><a name="-pyqtSetPickleProtocol"><strong>pyqtSetPickleProtocol</strong></a>(...)</dt><dd><tt><a href="#-pyqtSetPickleProtocol">pyqtSetPickleProtocol</a>(Optional[int])</tt></dd></dl>
+ <dl><dt><a name="-pyqtSlot"><strong>pyqtSlot</strong></a>(...)</dt><dd><tt>@<a href="#-pyqtSlot">pyqtSlot</a>(*types,&nbsp;name:&nbsp;Optional[str],&nbsp;result:&nbsp;Optional[str])<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;a&nbsp;decorator&nbsp;applied&nbsp;to&nbsp;Python&nbsp;methods&nbsp;of&nbsp;a&nbsp;QObject&nbsp;that&nbsp;marks&nbsp;them<br>
+as&nbsp;Qt&nbsp;slots.<br>
+The&nbsp;non-keyword&nbsp;arguments&nbsp;are&nbsp;the&nbsp;types&nbsp;of&nbsp;the&nbsp;slot&nbsp;arguments&nbsp;and&nbsp;each&nbsp;may<br>
+be&nbsp;a&nbsp;Python&nbsp;type&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a&nbsp;string&nbsp;specifying&nbsp;a&nbsp;C++&nbsp;type.<br>
+name&nbsp;is&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;slot&nbsp;and&nbsp;defaults&nbsp;to&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;method.<br>
+result&nbsp;is&nbsp;type&nbsp;of&nbsp;the&nbsp;value&nbsp;returned&nbsp;by&nbsp;the&nbsp;slot.</tt></dd></dl>
+ <dl><dt><a name="-qAbs"><strong>qAbs</strong></a>(...)</dt><dd><tt><a href="#-qAbs">qAbs</a>(float)&nbsp;-&gt;&nbsp;float</tt></dd></dl>
+ <dl><dt><a name="-qAddPostRoutine"><strong>qAddPostRoutine</strong></a>(...)</dt><dd><tt><a href="#-qAddPostRoutine">qAddPostRoutine</a>(Callable[...,&nbsp;None])</tt></dd></dl>
+ <dl><dt><a name="-qAddPreRoutine"><strong>qAddPreRoutine</strong></a>(...)</dt><dd><tt><a href="#-qAddPreRoutine">qAddPreRoutine</a>(Callable[[],&nbsp;None])</tt></dd></dl>
+ <dl><dt><a name="-qAlpha"><strong>qAlpha</strong></a>(...)</dt><dd><tt><a href="#-qAlpha">qAlpha</a>(QRgba64)&nbsp;-&gt;&nbsp;int<br>
+<a href="#-qAlpha">qAlpha</a>(int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qBlue"><strong>qBlue</strong></a>(...)</dt><dd><tt><a href="#-qBlue">qBlue</a>(QRgba64)&nbsp;-&gt;&nbsp;int<br>
+<a href="#-qBlue">qBlue</a>(int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qChecksum"><strong>qChecksum</strong></a>(...)</dt><dd><tt><a href="#-qChecksum">qChecksum</a>(bytes)&nbsp;-&gt;&nbsp;int<br>
+<a href="#-qChecksum">qChecksum</a>(bytes,&nbsp;Qt.ChecksumType)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qCompress"><strong>qCompress</strong></a>(...)</dt><dd><tt><a href="#-qCompress">qCompress</a>(Union[QByteArray,&nbsp;bytes,&nbsp;bytearray],&nbsp;compressionLevel:&nbsp;int&nbsp;=&nbsp;-1)&nbsp;-&gt;&nbsp;QByteArray</tt></dd></dl>
+ <dl><dt><a name="-qCritical"><strong>qCritical</strong></a>(...)</dt><dd><tt><a href="#-qCritical">qCritical</a>(str)</tt></dd></dl>
+ <dl><dt><a name="-qDebug"><strong>qDebug</strong></a>(...)</dt><dd><tt><a href="#-qDebug">qDebug</a>(str)</tt></dd></dl>
+ <dl><dt><a name="-qDrawBorderPixmap"><strong>qDrawBorderPixmap</strong></a>(...)</dt><dd><tt><a href="#-qDrawBorderPixmap">qDrawBorderPixmap</a>(QPainter,&nbsp;QRect,&nbsp;QMargins,&nbsp;QPixmap)</tt></dd></dl>
+ <dl><dt><a name="-qDrawPlainRect"><strong>qDrawPlainRect</strong></a>(...)</dt><dd><tt><a href="#-qDrawPlainRect">qDrawPlainRect</a>(QPainter,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;Union[QColor,&nbsp;Qt.GlobalColor],&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)<br>
+<a href="#-qDrawPlainRect">qDrawPlainRect</a>(QPainter,&nbsp;QRect,&nbsp;Union[QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient],&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)</tt></dd></dl>
+ <dl><dt><a name="-qDrawShadeLine"><strong>qDrawShadeLine</strong></a>(...)</dt><dd><tt><a href="#-qDrawShadeLine">qDrawShadeLine</a>(QPainter,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;True,&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;midLineWidth:&nbsp;int&nbsp;=&nbsp;0)<br>
+<a href="#-qDrawShadeLine">qDrawShadeLine</a>(QPainter,&nbsp;QPoint,&nbsp;QPoint,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;True,&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;midLineWidth:&nbsp;int&nbsp;=&nbsp;0)</tt></dd></dl>
+ <dl><dt><a name="-qDrawShadePanel"><strong>qDrawShadePanel</strong></a>(...)</dt><dd><tt><a href="#-qDrawShadePanel">qDrawShadePanel</a>(QPainter,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)<br>
+<a href="#-qDrawShadePanel">qDrawShadePanel</a>(QPainter,&nbsp;QRect,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)</tt></dd></dl>
+ <dl><dt><a name="-qDrawShadeRect"><strong>qDrawShadeRect</strong></a>(...)</dt><dd><tt><a href="#-qDrawShadeRect">qDrawShadeRect</a>(QPainter,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;midLineWidth:&nbsp;int&nbsp;=&nbsp;0,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)<br>
+<a href="#-qDrawShadeRect">qDrawShadeRect</a>(QPainter,&nbsp;QRect,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;lineWidth:&nbsp;int&nbsp;=&nbsp;1,&nbsp;midLineWidth:&nbsp;int&nbsp;=&nbsp;0,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)</tt></dd></dl>
+ <dl><dt><a name="-qDrawWinButton"><strong>qDrawWinButton</strong></a>(...)</dt><dd><tt><a href="#-qDrawWinButton">qDrawWinButton</a>(QPainter,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)<br>
+<a href="#-qDrawWinButton">qDrawWinButton</a>(QPainter,&nbsp;QRect,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)</tt></dd></dl>
+ <dl><dt><a name="-qDrawWinPanel"><strong>qDrawWinPanel</strong></a>(...)</dt><dd><tt><a href="#-qDrawWinPanel">qDrawWinPanel</a>(QPainter,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)<br>
+<a href="#-qDrawWinPanel">qDrawWinPanel</a>(QPainter,&nbsp;QRect,&nbsp;QPalette,&nbsp;sunken:&nbsp;bool&nbsp;=&nbsp;False,&nbsp;fill:&nbsp;Union[QBrush,&nbsp;QColor,&nbsp;Qt.GlobalColor,&nbsp;QGradient]&nbsp;=&nbsp;None)</tt></dd></dl>
+ <dl><dt><a name="-qEnvironmentVariable"><strong>qEnvironmentVariable</strong></a>(...)</dt><dd><tt><a href="#-qEnvironmentVariable">qEnvironmentVariable</a>(str)&nbsp;-&gt;&nbsp;str<br>
+<a href="#-qEnvironmentVariable">qEnvironmentVariable</a>(str,&nbsp;str)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+ <dl><dt><a name="-qErrnoWarning"><strong>qErrnoWarning</strong></a>(...)</dt><dd><tt><a href="#-qErrnoWarning">qErrnoWarning</a>(int,&nbsp;str)<br>
+<a href="#-qErrnoWarning">qErrnoWarning</a>(str)</tt></dd></dl>
+ <dl><dt><a name="-qFatal"><strong>qFatal</strong></a>(...)</dt><dd><tt><a href="#-qFatal">qFatal</a>(str)</tt></dd></dl>
+ <dl><dt><a name="-qFloatDistance"><strong>qFloatDistance</strong></a>(...)</dt><dd><tt><a href="#-qFloatDistance">qFloatDistance</a>(float,&nbsp;float)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qFormatLogMessage"><strong>qFormatLogMessage</strong></a>(...)</dt><dd><tt><a href="#-qFormatLogMessage">qFormatLogMessage</a>(QtMsgType,&nbsp;QMessageLogContext,&nbsp;str)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+ <dl><dt><a name="-qFuzzyCompare"><strong>qFuzzyCompare</strong></a>(...)</dt><dd><tt><a href="#-qFuzzyCompare">qFuzzyCompare</a>(QMatrix4x4,&nbsp;QMatrix4x4)&nbsp;-&gt;&nbsp;bool<br>
+<a href="#-qFuzzyCompare">qFuzzyCompare</a>(QQuaternion,&nbsp;QQuaternion)&nbsp;-&gt;&nbsp;bool<br>
+<a href="#-qFuzzyCompare">qFuzzyCompare</a>(QTransform,&nbsp;QTransform)&nbsp;-&gt;&nbsp;bool<br>
+<a href="#-qFuzzyCompare">qFuzzyCompare</a>(QVector2D,&nbsp;QVector2D)&nbsp;-&gt;&nbsp;bool<br>
+<a href="#-qFuzzyCompare">qFuzzyCompare</a>(QVector3D,&nbsp;QVector3D)&nbsp;-&gt;&nbsp;bool<br>
+<a href="#-qFuzzyCompare">qFuzzyCompare</a>(QVector4D,&nbsp;QVector4D)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qGray"><strong>qGray</strong></a>(...)</dt><dd><tt><a href="#-qGray">qGray</a>(int,&nbsp;int,&nbsp;int)&nbsp;-&gt;&nbsp;int<br>
+<a href="#-qGray">qGray</a>(int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qGreen"><strong>qGreen</strong></a>(...)</dt><dd><tt><a href="#-qGreen">qGreen</a>(QRgba64)&nbsp;-&gt;&nbsp;int<br>
+<a href="#-qGreen">qGreen</a>(int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qInf"><strong>qInf</strong></a>(...)</dt><dd><tt><a href="#-qInf">qInf</a>()&nbsp;-&gt;&nbsp;float</tt></dd></dl>
+ <dl><dt><a name="-qInfo"><strong>qInfo</strong></a>(...)</dt><dd><tt><a href="#-qInfo">qInfo</a>(str)</tt></dd></dl>
+ <dl><dt><a name="-qInstallMessageHandler"><strong>qInstallMessageHandler</strong></a>(...)</dt><dd><tt><a href="#-qInstallMessageHandler">qInstallMessageHandler</a>(Optional[Callable[[QtMsgType,&nbsp;QMessageLogContext,&nbsp;str],&nbsp;None]])&nbsp;-&gt;&nbsp;Optional[Callable[[QtMsgType,&nbsp;QMessageLogContext,&nbsp;str],&nbsp;None]]</tt></dd></dl>
+ <dl><dt><a name="-qIsFinite"><strong>qIsFinite</strong></a>(...)</dt><dd><tt><a href="#-qIsFinite">qIsFinite</a>(float)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qIsGray"><strong>qIsGray</strong></a>(...)</dt><dd><tt><a href="#-qIsGray">qIsGray</a>(int)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qIsInf"><strong>qIsInf</strong></a>(...)</dt><dd><tt><a href="#-qIsInf">qIsInf</a>(float)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qIsNaN"><strong>qIsNaN</strong></a>(...)</dt><dd><tt><a href="#-qIsNaN">qIsNaN</a>(float)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qIsNull"><strong>qIsNull</strong></a>(...)</dt><dd><tt><a href="#-qIsNull">qIsNull</a>(float)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qPixelFormatAlpha"><strong>qPixelFormatAlpha</strong></a>(...)</dt><dd><tt><a href="#-qPixelFormatAlpha">qPixelFormatAlpha</a>(int,&nbsp;typeInterpretation:&nbsp;QPixelFormat.TypeInterpretation&nbsp;=&nbsp;QPixelFormat.UnsignedInteger)&nbsp;-&gt;&nbsp;QPixelFormat</tt></dd></dl>
+ <dl><dt><a name="-qPixelFormatCmyk"><strong>qPixelFormatCmyk</strong></a>(...)</dt><dd><tt><a href="#-qPixelFormatCmyk">qPixelFormatCmyk</a>(int,&nbsp;alphaSize:&nbsp;int&nbsp;=&nbsp;0,&nbsp;alphaUsage:&nbsp;QPixelFormat.AlphaUsage&nbsp;=&nbsp;QPixelFormat.IgnoresAlpha,&nbsp;alphaPosition:&nbsp;QPixelFormat.AlphaPosition&nbsp;=&nbsp;QPixelFormat.AtBeginning,&nbsp;typeInterpretation:&nbsp;QPixelFormat.TypeInterpretation&nbsp;=&nbsp;QPixelFormat.UnsignedInteger)&nbsp;-&gt;&nbsp;QPixelFormat</tt></dd></dl>
+ <dl><dt><a name="-qPixelFormatGrayscale"><strong>qPixelFormatGrayscale</strong></a>(...)</dt><dd><tt><a href="#-qPixelFormatGrayscale">qPixelFormatGrayscale</a>(int,&nbsp;typeInterpretation:&nbsp;QPixelFormat.TypeInterpretation&nbsp;=&nbsp;QPixelFormat.UnsignedInteger)&nbsp;-&gt;&nbsp;QPixelFormat</tt></dd></dl>
+ <dl><dt><a name="-qPixelFormatHsl"><strong>qPixelFormatHsl</strong></a>(...)</dt><dd><tt><a href="#-qPixelFormatHsl">qPixelFormatHsl</a>(int,&nbsp;alphaSize:&nbsp;int&nbsp;=&nbsp;0,&nbsp;alphaUsage:&nbsp;QPixelFormat.AlphaUsage&nbsp;=&nbsp;QPixelFormat.IgnoresAlpha,&nbsp;alphaPosition:&nbsp;QPixelFormat.AlphaPosition&nbsp;=&nbsp;QPixelFormat.AtBeginning,&nbsp;typeInterpretation:&nbsp;QPixelFormat.TypeInterpretation&nbsp;=&nbsp;QPixelFormat.FloatingPoint)&nbsp;-&gt;&nbsp;QPixelFormat</tt></dd></dl>
+ <dl><dt><a name="-qPixelFormatHsv"><strong>qPixelFormatHsv</strong></a>(...)</dt><dd><tt><a href="#-qPixelFormatHsv">qPixelFormatHsv</a>(int,&nbsp;alphaSize:&nbsp;int&nbsp;=&nbsp;0,&nbsp;alphaUsage:&nbsp;QPixelFormat.AlphaUsage&nbsp;=&nbsp;QPixelFormat.IgnoresAlpha,&nbsp;alphaPosition:&nbsp;QPixelFormat.AlphaPosition&nbsp;=&nbsp;QPixelFormat.AtBeginning,&nbsp;typeInterpretation:&nbsp;QPixelFormat.TypeInterpretation&nbsp;=&nbsp;QPixelFormat.FloatingPoint)&nbsp;-&gt;&nbsp;QPixelFormat</tt></dd></dl>
+ <dl><dt><a name="-qPixelFormatRgba"><strong>qPixelFormatRgba</strong></a>(...)</dt><dd><tt><a href="#-qPixelFormatRgba">qPixelFormatRgba</a>(int,&nbsp;int,&nbsp;int,&nbsp;int,&nbsp;QPixelFormat.AlphaUsage,&nbsp;QPixelFormat.AlphaPosition,&nbsp;premultiplied:&nbsp;QPixelFormat.AlphaPremultiplied&nbsp;=&nbsp;QPixelFormat.NotPremultiplied,&nbsp;typeInterpretation:&nbsp;QPixelFormat.TypeInterpretation&nbsp;=&nbsp;QPixelFormat.UnsignedInteger)&nbsp;-&gt;&nbsp;QPixelFormat</tt></dd></dl>
+ <dl><dt><a name="-qPixelFormatYuv"><strong>qPixelFormatYuv</strong></a>(...)</dt><dd><tt><a href="#-qPixelFormatYuv">qPixelFormatYuv</a>(QPixelFormat.YUVLayout,&nbsp;alphaSize:&nbsp;int&nbsp;=&nbsp;0,&nbsp;alphaUsage:&nbsp;QPixelFormat.AlphaUsage&nbsp;=&nbsp;QPixelFormat.IgnoresAlpha,&nbsp;alphaPosition:&nbsp;QPixelFormat.AlphaPosition&nbsp;=&nbsp;QPixelFormat.AtBeginning,&nbsp;premultiplied:&nbsp;QPixelFormat.AlphaPremultiplied&nbsp;=&nbsp;QPixelFormat.NotPremultiplied,&nbsp;typeInterpretation:&nbsp;QPixelFormat.TypeInterpretation&nbsp;=&nbsp;QPixelFormat.UnsignedByte,&nbsp;byteOrder:&nbsp;QPixelFormat.ByteOrder&nbsp;=&nbsp;QPixelFormat.LittleEndian)&nbsp;-&gt;&nbsp;QPixelFormat</tt></dd></dl>
+ <dl><dt><a name="-qPremultiply"><strong>qPremultiply</strong></a>(...)</dt><dd><tt><a href="#-qPremultiply">qPremultiply</a>(QRgba64)&nbsp;-&gt;&nbsp;QRgba64<br>
+<a href="#-qPremultiply">qPremultiply</a>(int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qQNaN"><strong>qQNaN</strong></a>(...)</dt><dd><tt><a href="#-qQNaN">qQNaN</a>()&nbsp;-&gt;&nbsp;float</tt></dd></dl>
+ <dl><dt><a name="-qRed"><strong>qRed</strong></a>(...)</dt><dd><tt><a href="#-qRed">qRed</a>(QRgba64)&nbsp;-&gt;&nbsp;int<br>
+<a href="#-qRed">qRed</a>(int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qRegisterResourceData"><strong>qRegisterResourceData</strong></a>(...)</dt><dd><tt><a href="#-qRegisterResourceData">qRegisterResourceData</a>(int,&nbsp;bytes,&nbsp;bytes,&nbsp;bytes)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qRemovePostRoutine"><strong>qRemovePostRoutine</strong></a>(...)</dt><dd><tt><a href="#-qRemovePostRoutine">qRemovePostRoutine</a>(Callable[...,&nbsp;None])</tt></dd></dl>
+ <dl><dt><a name="-qRgb"><strong>qRgb</strong></a>(...)</dt><dd><tt><a href="#-qRgb">qRgb</a>(int,&nbsp;int,&nbsp;int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qRgba"><strong>qRgba</strong></a>(...)</dt><dd><tt><a href="#-qRgba">qRgba</a>(int,&nbsp;int,&nbsp;int,&nbsp;int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qRgba64"><strong>qRgba64</strong></a>(...)</dt><dd><tt><a href="#-qRgba64">qRgba64</a>(int,&nbsp;int,&nbsp;int,&nbsp;int)&nbsp;-&gt;&nbsp;QRgba64<br>
+<a href="#-qRgba64">qRgba64</a>(int)&nbsp;-&gt;&nbsp;QRgba64</tt></dd></dl>
+ <dl><dt><a name="-qRound"><strong>qRound</strong></a>(...)</dt><dd><tt><a href="#-qRound">qRound</a>(float)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qRound64"><strong>qRound64</strong></a>(...)</dt><dd><tt><a href="#-qRound64">qRound64</a>(float)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qSNaN"><strong>qSNaN</strong></a>(...)</dt><dd><tt><a href="#-qSNaN">qSNaN</a>()&nbsp;-&gt;&nbsp;float</tt></dd></dl>
+ <dl><dt><a name="-qSetFieldWidth"><strong>qSetFieldWidth</strong></a>(...)</dt><dd><tt><a href="#-qSetFieldWidth">qSetFieldWidth</a>(int)&nbsp;-&gt;&nbsp;QTextStreamManipulator</tt></dd></dl>
+ <dl><dt><a name="-qSetMessagePattern"><strong>qSetMessagePattern</strong></a>(...)</dt><dd><tt><a href="#-qSetMessagePattern">qSetMessagePattern</a>(str)</tt></dd></dl>
+ <dl><dt><a name="-qSetPadChar"><strong>qSetPadChar</strong></a>(...)</dt><dd><tt><a href="#-qSetPadChar">qSetPadChar</a>(str)&nbsp;-&gt;&nbsp;QTextStreamManipulator</tt></dd></dl>
+ <dl><dt><a name="-qSetRealNumberPrecision"><strong>qSetRealNumberPrecision</strong></a>(...)</dt><dd><tt><a href="#-qSetRealNumberPrecision">qSetRealNumberPrecision</a>(int)&nbsp;-&gt;&nbsp;QTextStreamManipulator</tt></dd></dl>
+ <dl><dt><a name="-qSharedBuild"><strong>qSharedBuild</strong></a>(...)</dt><dd><tt><a href="#-qSharedBuild">qSharedBuild</a>()&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qUncompress"><strong>qUncompress</strong></a>(...)</dt><dd><tt><a href="#-qUncompress">qUncompress</a>(Union[QByteArray,&nbsp;bytes,&nbsp;bytearray])&nbsp;-&gt;&nbsp;QByteArray</tt></dd></dl>
+ <dl><dt><a name="-qUnpremultiply"><strong>qUnpremultiply</strong></a>(...)</dt><dd><tt><a href="#-qUnpremultiply">qUnpremultiply</a>(QRgba64)&nbsp;-&gt;&nbsp;QRgba64<br>
+<a href="#-qUnpremultiply">qUnpremultiply</a>(int)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qUnregisterResourceData"><strong>qUnregisterResourceData</strong></a>(...)</dt><dd><tt><a href="#-qUnregisterResourceData">qUnregisterResourceData</a>(int,&nbsp;bytes,&nbsp;bytes,&nbsp;bytes)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+ <dl><dt><a name="-qVersion"><strong>qVersion</strong></a>(...)</dt><dd><tt><a href="#-qVersion">qVersion</a>()&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+ <dl><dt><a name="-qWarning"><strong>qWarning</strong></a>(...)</dt><dd><tt><a href="#-qWarning">qWarning</a>(str)</tt></dd></dl>
+ <dl><dt><a name="-qrand"><strong>qrand</strong></a>(...)</dt><dd><tt><a href="#-qrand">qrand</a>()&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-qsrand"><strong>qsrand</strong></a>(...)</dt><dd><tt><a href="#-qsrand">qsrand</a>(int)</tt></dd></dl>
+ <dl><dt><a name="-qt_set_sequence_auto_mnemonic"><strong>qt_set_sequence_auto_mnemonic</strong></a>(...)</dt><dd><tt><a href="#-qt_set_sequence_auto_mnemonic">qt_set_sequence_auto_mnemonic</a>(bool)</tt></dd></dl>
+ <dl><dt><a name="-reset"><strong>reset</strong></a>(...)</dt><dd><tt><a href="#-reset">reset</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-right"><strong>right</strong></a>(...)</dt><dd><tt><a href="#-right">right</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-scientific"><strong>scientific</strong></a>(...)</dt><dd><tt><a href="#-scientific">scientific</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-showbase"><strong>showbase</strong></a>(...)</dt><dd><tt><a href="#-showbase">showbase</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-uppercasebase"><strong>uppercasebase</strong></a>(...)</dt><dd><tt><a href="#-uppercasebase">uppercasebase</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-uppercasedigits"><strong>uppercasedigits</strong></a>(...)</dt><dd><tt><a href="#-uppercasedigits">uppercasedigits</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+ <dl><dt><a name="-ws"><strong>ws</strong></a>(...)</dt><dd><tt><a href="#-ws">ws</a>(QTextStream)&nbsp;-&gt;&nbsp;QTextStream</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>PYQT_CONFIGURATION</strong> = {'sip_flags': '-n PyQt5.sip -t WS_X11 -t Qt_5_12_3'}<br>
+<strong>PYQT_VERSION</strong> = 330754<br>
+<strong>PYQT_VERSION_STR</strong> = '5.12.2'<br>
+<strong>QT_VERSION</strong> = 330755<br>
+<strong>QT_VERSION_STR</strong> = '5.12.3'<br>
+<strong>QWIDGETSIZE_MAX</strong> = 16777215<br>
+<strong>QtCriticalMsg</strong> = 2<br>
+<strong>QtDebugMsg</strong> = 0<br>
+<strong>QtFatalMsg</strong> = 3<br>
+<strong>QtInfoMsg</strong> = 4<br>
+<strong>QtSystemMsg</strong> = 2<br>
+<strong>QtWarningMsg</strong> = 1<br>
+<strong>qApp</strong> = &lt;PyQt5.QtWidgets.QApplication object&gt;</td></tr></table>
+</body></html>
